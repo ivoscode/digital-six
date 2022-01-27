@@ -1,0 +1,15 @@
+.App {
+  max-width: 1900px;
+  margin: 0 auto;
+  background-color: white;
+}
+.button {
+  color: white;
+  height: 45px;
+
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.8rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}

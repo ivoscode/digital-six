@@ -1,0 +1,43 @@
+.Tiles-grid {
+}
+
+.Tiles-tile {
+  position: relative;
+}
+
+.Tiles-content {
+  /* background-color: white; */
+  position: absolute;
+  bottom: -40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: full;
+  height: 270px;
+  margin: auto;
+  text-align: center;
+  border: 15px double white;
+  background: white;
+  background-clip: padding-box;
+  padding: 20px;
+}
+.Tiles-button {
+  background-color: #3a6b82;
+  margin-top: 3rem;
+}
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .Tiles-grid {
+    display: flex;
+  }
+  .Tiles-tile {
+    margin: 2rem;
+  }
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+}
+/*  */
